@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import RightSide from "./header/right-phone";
 import Logo from './header/logo';
-import LeftSide from "./header/left-location";
 import NavBar from "./header/center-nav";
 
 export default class Footer extends Component {
@@ -12,16 +11,33 @@ export default class Footer extends Component {
                 <div className='footer'>
                     <Logo/>
                     <div className='info'>
-                        <RightSide/>
-                        <LeftSide/>
+                        <div className='right nav-container'>
+                            <div className="phone content">
+                                Whats A Phone???
+                            </div>
+                        </div>
+                        <div className='left nav-container'>
+                            <div className="hours content">
+                                9 AM - 5PM <br/>
+                                Morndas - Fredas
+                            </div>
+                        </div>
                     </div>
-
                 </div>
                 <NavBar/>
-                <div className='links copywrite'>
-                    <div className="copywrite-wrapper">
-                        &copy; 2021 Carlos Leany |
-                    </div>
+                <div className='social-links'>
+                    <a href={`https://www.instagram.com/skyrim.c/?hl=eng`} target="_blank">
+                        <FontAwesomeIcon icon={['fab', 'instagram']} />
+                    </a>
+                    <a href={`https://twitter.com/ElderScrolls?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor`} target="_blank">
+                        <FontAwesomeIcon icon={['fab', 'twitter']} />
+                    </a>
+                    <a href={`https://www.facebook.com/TESVSkyrim/`} target="_blank">
+                        <FontAwesomeIcon icon={['fab', 'facebook-f']} />
+                    </a>
+                </div>
+                <div className="copywrite-wrapper">
+                    &copy; 2021 Carlos Leany |
                 </div>
             </div>
         )

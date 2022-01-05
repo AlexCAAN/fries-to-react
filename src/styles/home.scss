@@ -1,0 +1,154 @@
+.heading {
+    width: calc(98vw - 200px);
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 100px;
+
+    .center-column {
+        margin-bottom: -80px;
+        
+        .center {
+            .nav-bar {
+                font-size: 1.3em;
+                font-family: 'Italianno', cursive;
+            
+            }
+        }
+
+        .image {
+            img{
+                height: 216px;
+                margin-top: -60px;
+            }
+        }  
+    }
+
+    .nav-container {
+        width: 256px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Dancing Script', cursive;
+        color: #858585;
+        font-size: 0.6em;
+
+
+
+        .text-content {
+            .phone {
+                color: rgba(255, 255, 255, 0.74);
+                font-size: 1.7em;
+                font-family: 'Fleur De Leah', cursive;
+            }
+        }
+
+        .address-wrapper {
+            text-align: right;
+            a {
+            color: #858585;
+            }
+        }
+
+        svg {
+            font-size: 3em;
+            padding: 15px;
+            color: rgba(255, 255, 255, 0.74);
+        }
+    }
+}
+
+.homepage {
+    .hero-section{
+        background-image: url(../assets/images/background/skyrim-backround.jpg);
+        padding: 100px;
+        height: 300px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 900px 1800px;
+        background-color: black;
+    
+        .top-heading {
+            padding: 1px 20px;
+            background-color: #1b1c2b98;
+            color: #ff00008e;
+            width: 290px;
+            border-radius: 2px;
+            text-align: center;
+            font-family: 'Fleur De Leah', cursive;
+        }
+        
+        .bottom-heading {
+            background-color: #005a1498;
+            color: #c4b00498;
+            padding: 1px 20px;
+            margin-top: 15px;
+            width: 130px;
+            border-radius: 2px;
+            text-align: center;
+            font-family: 'Fleur De Leah', cursive;
+        }
+    }
+
+    .features-section{
+        height: 400px;
+        background-image: url(../assets/images/background/skyrim-base-background.jpg);
+        background-color: rgb(120, 136, 135);
+        border-top: 10px solid black;
+        background-size: 98px 50px;
+        background-position: center;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Fleur De Leah', cursive;
+        padding: 0px;
+        box-shadow: inset 0px -26px 79px -8px rgb(67, 60, 78);
+    
+        .columns-wrapper{
+            width: 1000px;
+            display: flex;
+            justify-content: space-between;
+        
+            .column{
+                padding: 20px;
+                margin: 42px;
+                text-align: center;
+                border-bottom: 5px solid transparent;
+                border-radius: 10px;
+                transition: 1s;
+
+                &:hover {
+                    border-bottom: 5px solid white;
+                }
+
+                svg {
+                    font-size: 3em;
+                }
+
+                p {
+                    font-family: 'Dancing Script', cursive;
+                    font-size: 1.4em;
+                }
+
+                .poetry {
+                    font-size: 1.4em;
+                    transition: 1s;
+                    font-family: 'Fleur De Leah', cursive;
+                    height: 124px;
+                    &:hover {
+                        letter-spacing: 1px;
+                    }
+                }
+            }        
+        }
+    }
+
+    .map-segment {
+        img{
+            width: 100%;
+            height: inherit;
+            margin-bottom: -11px;
+        }
+    }
+}
