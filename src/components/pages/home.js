@@ -33,7 +33,7 @@ export default class Home extends Component {
 
                         <div className='left nav-container'>
                             <div className="address-wrapper">
-                                <a href= "/contact">
+                                <a>
                                 The Road To Bruma <br/>
                                 Tamriel, Skyrim, Whiterun </a>
                             </div>
