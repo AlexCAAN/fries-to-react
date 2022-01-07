@@ -23,12 +23,6 @@ export default class NavBar extends Component {
                             CC
                         </NavLink>
                     </div>
-
-                    <div className='nav-link-wrapper'>
-                        <NavLink to="/contact" activeclassname="nav-link-active">
-                            Contact
-                        </NavLink>
-                    </div>
                 </div>
 
             </div>

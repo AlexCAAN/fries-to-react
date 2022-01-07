@@ -5,7 +5,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './pages/home';
 import CC from './pages/character-creation';
 import About from "./pages/about";
-import Contact from "./pages/contact";
 import NoMatch from "./pages/no-match";
 import Icons from "../helpers/icons";
 import "../styles/main.scss";
@@ -27,7 +26,6 @@ export default class App extends Component {
               <Route path='/' element={<Home/>} />
               <Route path='/about' element={<About/>} />
               <Route path='/character-creation' element={<CC/>} />
-              <Route path='/contact' element={<Contact/>} />
               <Route path="*" element={<NoMatch />} />
             </Routes>
           </div>

@@ -1,10 +1,11 @@
-.about {
+.character-creation {
     .header {
         position: relative;
         height: 400px;
         overflow: hidden;
+        margin-bottom: -16px;
         .header-bg {
-            background-image: url(../assets/images/background/skyrim-skewed-img.jpg);
+            background-image: url(../assets/images/background/menu-bg.jpeg);
             position: absolute;
             top: 0;
             bottom: 0;
@@ -38,10 +39,10 @@
                     border-bottom-right-radius: 2px;
                     width: 175px;
                     height: 100px;
-                    padding: 10px;
+                    padding: 40px 0px;
                     text-align: center;
-                    font-size: 1.5em;
-                    padding-bottom: 30px;
+                    font-size: 1.2em;
+                    margin-top: -45px;
                 }
 
                 .links-wrapper {
@@ -69,29 +70,6 @@
                         }
                     }
                 }
-            }
-        }
-    }
-
-    .page-container {
-        display: flex;
-        justify-content: center;
-        .content-wrapper {
-            width: 1000px;
-
-            &:nth-child(1) {
-                font-family: 'Italianno', cursive;
-                font-size: 1.2em;
-            }
-
-            p {
-                font-size: 1.5em;
-            }
-            #portrait {
-                width: 350px;
-                margin: 5px 50px 20px 0px;
-                float: right;
-                border: 2px solid #1b1c2b;
             }
         }
     }

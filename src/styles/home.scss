@@ -44,7 +44,12 @@
         .address-wrapper {
             text-align: right;
             a {
-            color: #858585;
+                color: #858585;
+                transition: 0.5s;
+
+                &:hover {
+                    color: #cea135;
+                }
             }
         }
 
