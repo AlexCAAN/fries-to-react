@@ -13,8 +13,8 @@
         width: 500px;
         padding: 30px 0px;
         display: flex;
-        justify-content: space-between;
         align-items: center;
+        font-family: 'Italianno', cursive;
 
         .nav-link-wrapper {
             a {
@@ -40,6 +40,13 @@
     background-color: #000008;
     color: #cbcbcb;
     padding: 15px 100px;
+
+    .center {
+        .nav-bar {
+            justify-content: space-between;
+            font-family: 'Fleur De Leah', cursive;
+        }
+    }
     .footer {
         color: #cbcbcb;
 
@@ -57,6 +64,7 @@
                 text-align: center;
                 font-size: 0.7em;
                 color: #cbcbcb;
+                justify-content: space-between;
 
                 .content {
                     opacity: 2;

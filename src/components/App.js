@@ -15,10 +15,9 @@ import "../styles/main.scss";
 export default class App extends Component {
   constructor() {
     super()
-
     Icons()
-    
   }
+
   render() {
     return (
       <div className="App">

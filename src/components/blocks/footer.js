@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import Logo from './header/logo';
-import NavBar from "./header/center-nav";
+import Logo from '../header/logo';
+import NavBar from '../header/center-nav';
 
 export default class Footer extends Component {
     render() {
@@ -26,13 +26,13 @@ export default class Footer extends Component {
                 </div>
                 <NavBar/>
                 <div className='social-links'>
-                    <a href={`https://www.instagram.com/skyrim.c/?hl=eng`} target="_blank">
+                    <a href={`https://www.instagram.com/skyrim.c/?hl=eng`} target="_blank" rel="noreferrer">
                         <FontAwesomeIcon icon={['fab', 'instagram']} />
                     </a>
-                    <a href={`https://twitter.com/ElderScrolls?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor`} target="_blank">
+                    <a href={`https://twitter.com/ElderScrolls?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor`} target="_blank" rel="noreferrer">
                         <FontAwesomeIcon icon={['fab', 'twitter']} />
                     </a>
-                    <a href={`https://www.facebook.com/TESVSkyrim/`} target="_blank">
+                    <a href={`https://www.facebook.com/TESVSkyrim/`} target="_blank" rel="noreferrer">
                         <FontAwesomeIcon icon={['fab', 'facebook-f']} />
                     </a>
                 </div>

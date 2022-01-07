@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import BackgroundMap from "../../assets/images/background/skyrim-map.jpg"
 import Logo from '../header/logo';
 import NavBar from "../header/center-nav";
-import Footer from '../footer';
+import Footer from '../blocks/footer';
 
 export default class Home extends Component {
     render() {
